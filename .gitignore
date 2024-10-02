@@ -19,6 +19,8 @@ build/
 *.iml
 *.ipr
 out/
+.idea/
+data/
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,6 +28,7 @@ out/
 /dist/
 /nbdist/
 /.nb-gradle/
+
 
 ### VS Code ###
 .vscode/
@@ -38,8 +41,9 @@ out/
 *.zip
 *.tar.gz
 *.rar
-
+*.png
+*.iml
 ### Exclusions ###
 !gradle/wrapper/gradle-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+!/src/main/
+!/src/test/
